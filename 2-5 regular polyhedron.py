@@ -13,6 +13,6 @@ for i in range(1, n+1):
 
 max_value = max(result_dict.values())
 
-for k,v in result_dict.items():
+for k, v in result_dict.items():
     if v == max_value:
         print(k, end=' ')
